@@ -1,7 +1,7 @@
 
 import React, { useRef, useEffect, useState } from 'react';
 
-import './calculator.css';
+import './Calculator.module.css';
 
 import { btns, BTN_ACTIONS } from './btnConfig';
 
