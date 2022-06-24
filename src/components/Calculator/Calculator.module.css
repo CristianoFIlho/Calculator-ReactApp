@@ -1,1 +1,30 @@
-.Calculator {}
+.Calculator {
+    pedding: 20px;
+    height: 700px;
+    width:400px;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: var(--calc-bg);
+    box-shadow: rgba(100, 100,111, 0.2) 0px 7px 0px 29px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.Calculator_btns{
+    display: gird;
+    grid-templete-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+.Calculator_btns button{
+    
+}
