@@ -1,5 +1,3 @@
-
-
 export const BTN_ACTIONS = {
     ADD: 'ADD',
     THEME: 'THEME',
@@ -109,4 +107,3 @@ export const btns = [
         class: 'btn__op'
     }
 ];
-

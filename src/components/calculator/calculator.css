@@ -1,4 +1,4 @@
-.Calculator {
+.calculator {
     padding: 20px;
     height: 700px;
     width: 400px;
@@ -12,13 +12,13 @@
     justify-content: flex-end;
 }
 
-.Calculator__btns {
+.calculator__btns {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
-.Calculator__btns button {
+.calculator__btns button {
     border: 0;
     outline: 0;
     border-radius: 10px;
@@ -28,17 +28,17 @@
     color: var(--txt-color);
 }
 
-.Calculator__btns button:last-child {
+.calculator__btns button:last-child {
     border-radius: 50%;
     color: var(--txt-white);
     background-image: linear-gradient(312deg, #cd6e36, #d400ff);
 }
 
-.Calculator__btns .btn__op {
+.calculator__btns .btn__op {
     color: var(--calc-btn-color);
 }
 
-.Calculator__result {
+.calculator__result {
     position: relative;
     margin-bottom: 20px;
     text-align: right;
@@ -48,7 +48,7 @@
     justify-content: flex-end;
 }
 
-.Calculator__result__exp {
+.calculator__result__exp {
     font-size: 3.5rem;
     line-height: 1;
     transform-origin: right bottom;
@@ -56,19 +56,19 @@
     color: var(--calc-res-color);
 }
 
-.Calculator__result__exp:last-child {
+.calculator__result__exp:last-child {
     position: absolute;
     right: 0;
 }
 
-.Calculator__result__exp span {
+.calculator__result__exp span {
     display: inline-block;
     overflow: hidden;
     transition: width 0.3s ease;
 }
 
 @media only screen and (max-width: 800px) {
-    .Calculator {
+    .calculator {
         width: 100%;
         height: 100vh;
         border-radius: 0;

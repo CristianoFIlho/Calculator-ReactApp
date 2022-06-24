@@ -1,7 +1,6 @@
-
 import React, { useRef, useEffect, useState } from 'react';
 
-import './Calculator.module.css';
+import './calculator.css';
 
 import { btns, BTN_ACTIONS } from './btnConfig';
 
@@ -107,4 +106,3 @@ const Calculator = () => {
 }
 
 export default Calculator;
-
