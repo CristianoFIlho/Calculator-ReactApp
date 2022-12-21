@@ -36,4 +36,32 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+
+
+### `Dockerfile properts`
+
+```docker
+FROM node:14
+
+WORKDIR /app
+
+COPY package.json .
+RUN npm install
+
+COPY . .
+
+CMD ["npm", "start"]
+
+```
+
+### `Docker build`
+
+```docker
+   docker build -t calculator-app .
+```
+
+### `Docker run`
+
+```docker
+docker run -p 3000:3000 calculator-app
+```
